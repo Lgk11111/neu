@@ -1,4 +1,3 @@
-# final_solution.py - 优化版本（目标准确率>0.9）
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -395,3 +394,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
