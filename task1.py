@@ -1,8 +1,3 @@
-"""
-植物图像分类系统 - 课程优化最终版（纯机器学习）
-目标分数：0.80+
-符合课程要求：特征工程 + 传统机器学习
-"""
 import os
 import cv2
 import numpy as np
@@ -808,5 +803,6 @@ if __name__ == "__main__":
             print(f"错误: 缺少必要的库 {lib}")
             print(f"请安装: pip install opencv-python scikit-learn numpy pandas joblib")
             exit(1)
+
 
     main()
