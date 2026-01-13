@@ -1,9 +1,3 @@
-"""
-人脸情感分类 - 终极高准确率版本
-使用：集成学习 + 强数据增强 + 多模型融合
-目标准确率：85%+
-"""
-
 import os
 import numpy as np
 import pandas as pd
@@ -783,4 +777,5 @@ if __name__ == "__main__":
         print("1. 将 Config.img_size 改为 64")
         print("2. 将 Config.model_names 改为 ['resnet18']")
         print("3. 将 Config.epochs 改为 30")
+
         print("=" * 80)
